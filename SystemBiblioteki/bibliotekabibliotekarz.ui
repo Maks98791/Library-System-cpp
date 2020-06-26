@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BibliotekaBibliotekarz</class>
+ <widget class="QMainWindow" name="BibliotekaBibliotekarz">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>304</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>System Biblioteki</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(9, 205, 166);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>641</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Witaj w systemie biblioteki!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>761</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpcje">
+    <property name="title">
+     <string>Opcje</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionPrzegl_daj_ksi_ki_2"/>
+    <addaction name="actionWyloguj"/>
+   </widget>
+   <widget class="QMenu" name="menuU_ytkownicy">
+    <property name="title">
+     <string>Czytelnicy</string>
+    </property>
+    <addaction name="actionPrzegl_daj_czytelnik_w"/>
+   </widget>
+   <widget class="QMenu" name="menuInne">
+    <property name="title">
+     <string>Inne</string>
+    </property>
+    <addaction name="actionO_programie"/>
+   </widget>
+   <addaction name="menuOpcje"/>
+   <addaction name="menuU_ytkownicy"/>
+   <addaction name="menuInne"/>
+  </widget>
+  <action name="actionPrzegl_daj_ksi_ki">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Images/ksiazka.png</normaloff>:/Images/ksiazka.png</iconset>
+   </property>
+   <property name="text">
+    <string>Przeglądaj książki</string>
+   </property>
+  </action>
+  <action name="actionPrzegl_daj_czytelnik_w">
+   <property name="text">
+    <string>Przeglądaj czytelników</string>
+   </property>
+  </action>
+  <action name="actionWyloguj">
+   <property name="text">
+    <string>Wyloguj</string>
+   </property>
+  </action>
+  <action name="actionPrzegl_daj_ksi_ki_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Images/ksiazka.png</normaloff>:/Images/ksiazka.png</iconset>
+   </property>
+   <property name="text">
+    <string>Przeglądaj książki</string>
+   </property>
+  </action>
+  <action name="actionO_programie">
+   <property name="text">
+    <string>O programie</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

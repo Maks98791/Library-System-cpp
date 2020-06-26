@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BibliotekaCzytelnik</class>
+ <widget class="QMainWindow" name="BibliotekaCzytelnik">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>273</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>System Biblioteki</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(9, 205, 166);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>641</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Witaj w systemie biblioteki!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>724</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpcje">
+    <property name="title">
+     <string>Opcje</string>
+    </property>
+    <addaction name="actionPrzegl_daj_ksi_ki"/>
+    <addaction name="separator"/>
+    <addaction name="actionWypo_yczone_ksi_ki"/>
+    <addaction name="separator"/>
+    <addaction name="actionWyloguj_2"/>
+   </widget>
+   <widget class="QMenu" name="menuKonto">
+    <property name="title">
+     <string>Konto</string>
+    </property>
+    <addaction name="actionDane_czytelnika"/>
+   </widget>
+   <widget class="QMenu" name="menuInne">
+    <property name="title">
+     <string>Inne</string>
+    </property>
+    <addaction name="actionO_programie"/>
+   </widget>
+   <addaction name="menuOpcje"/>
+   <addaction name="menuKonto"/>
+   <addaction name="menuInne"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionPrzegl_daj_ksi_ki">
+   <property name="text">
+    <string>Przeglądaj książki</string>
+   </property>
+  </action>
+  <action name="actionZam_wienia">
+   <property name="text">
+    <string>Wypożyczone książki</string>
+   </property>
+  </action>
+  <action name="actionPrzed_u_zwrot">
+   <property name="text">
+    <string>Przedłuż zwrot</string>
+   </property>
+  </action>
+  <action name="actionDane_czytelnika">
+   <property name="text">
+    <string>Dane czytelnika</string>
+   </property>
+  </action>
+  <action name="actionWyloguj">
+   <property name="text">
+    <string>Wyloguj</string>
+   </property>
+  </action>
+  <action name="actionWyloguj_2">
+   <property name="text">
+    <string>Wyloguj</string>
+   </property>
+  </action>
+  <action name="actionWypo_yczone_ksi_ki">
+   <property name="text">
+    <string>Wypożyczone książki</string>
+   </property>
+  </action>
+  <action name="actionO_programie">
+   <property name="text">
+    <string>O programie</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
